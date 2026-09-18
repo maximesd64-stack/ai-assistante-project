@@ -1,4 +1,4 @@
-Who is the user?
+## Who is the user?
 The user is a beginner or student who wants to learn and improve their Python skills.
 
 What problem are you solving?
