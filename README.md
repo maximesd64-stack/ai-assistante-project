@@ -8,7 +8,7 @@ Learning Python can be difficult because exercises are not always adapted to the
 
 Explanation: Explain Python concepts in a simple way based on the user's level.
 
-Examples: Generate examples when the user doesn't understand.
+Examples: Generate examples when the userr doesn't understand.
 
 Exercises: Create new exercises adapted to the user.
 
