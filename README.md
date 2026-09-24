@@ -1,82 +1,76 @@
 # AI Student Assistant
 
+AI Student Assistant is a beginner Python project designed to help students with simple study tasks.
+
+The current version is not a real AI yet. It is a rule-based program using basic Python concepts such as variables, input, conditions and calculations.
+
 ## Who is the user?
 
-The user is a student who wants to learn, improve their skills and get help with their studies.
+The user is a student who wants help with their studies and wants to improve their Python skills.
 
 ## What problem are we solving?
 
-Students don't always understand their lessons and exercises. They also don't always know what they need to improve.
+Students may need help checking their grades, calculating averages, staying motivated or practising Python.
 
-The goal is to create an AI that adapts to the student's level and helps them learn.
+The goal of this project is to create a simple student assistant that can interact with the user and give different responses depending on their choices.
 
-## Ideas
+## Current Features
 
-* **Choose your level: Beginner, Intermediate or Advanced**
-  The user chooses their level so the AI can adapt the lessons and exercises.
+### Personal greeting
 
-* **Python exercises**
-  Give Python exercises depending on the user's level and what they are currently learning.
+The program asks for the student's name and displays a personalised greeting.
 
-* **Python lessons**
-  Explain Python concepts like variables, conditions, loops, functions and lists.
+### Grade checker
 
-* **English lessons**
-  Help the user learn English with lessons adapted to their level.
+The user can enter a grade.
 
-* **English vocabulary**
-  Teach new words and ask the user to practice them.
+The assistant gives a different message depending on the result:
 
-* **English grammar**
-  Explain grammar rules and create exercises to practice them.
+- 16 or more: excellent work
+- 10 or more: passed
+- Below 10: keep practising
 
-* **English conversations**
-  Have conversations with the user in English to help them practice and become more comfortable.
+### Average calculator
 
-* **Correct Python code**
-  Analyze the user's code, find errors and explain what is wrong.
+The user can enter two grades.
 
-* **Correct English mistakes**
-  Correct grammar, vocabulary and sentence mistakes and explain the correction.
+The program calculates and displays the average.
 
-* **Give hints without giving the answer**
-  If the user is stuck, give a small hint first instead of directly giving the solution.
+### Motivation
 
-* **Generate exercises**
-  The AI can create new exercises depending on the subject, level and previous results.
+The assistant can display motivational messages to encourage the student.
 
-* **Generate quizzes**
-  Create short quizzes to test what the user has learned.
+### Learn Python
 
-* **Adapt the difficulty to the user**
-  Make exercises harder when the user is doing well and easier when they are struggling.
+The user can choose their Python level:
 
-* **Track the user's progress**
-  Keep the results of previous exercises to see how the user improves over time.
+- Beginner
+- Intermediate
+- Advanced
 
-* **Detect weaknesses**
-  Find the subjects or concepts where the user makes the most mistakes.
+The assistant then gives a lesson and an exercise adapted to the selected level.
 
-* **Remember previous mistakes**
-  Remember common mistakes and create new exercises to help the user understand them.
+#### Beginner
 
-* **Recommend what to learn next**
-  Use the user's results to suggest the next lesson or exercise.
+The student learns about variables.
 
-* **Add more subjects later**
-  Start with Python and English, then add other subjects like algorithms, AI, maths or SQL.
+Example:
 
-* **Give examples when the user doesn't understand**
-  If an explanation is not clear, give another explanation with a simpler example.
+```python
+age = 20
 
-* **Create small tests**
-  Create tests with different questions to check the user's knowledge.
 
-* **Give a score after exercises**
-  Give the user a score after a quiz or test so they can see their results.
 
-* **Help prepare for exams**
-  Create exercises, questions and revision sessions based on what the user needs to study.
 
-* **Technical English for computer science and AI**
-  Teach English vocabulary used in programming, computer science and artificial intelligence.
+```md
+The exercise asks the user to create a variable and assign a value to it.
+
+#### Intermediate
+
+The student learns about conditions.
+
+Example:
+
+```python
+if age >= 18:
+    print("Adult")
