@@ -60,17 +60,3 @@ Example:
 age = 20
 
 
-
-
-````md
-The exercise asks the user to create a variable and assign a value to it.
-
-#### Intermediate
-
-The student learns about conditions.
-
-Example:
-
-```python
-if age >= 18:
-    print("Adult")
