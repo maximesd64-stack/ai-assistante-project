@@ -62,7 +62,7 @@ age = 20
 
 
 
-```md
+````md
 The exercise asks the user to create a variable and assign a value to it.
 
 #### Intermediate
