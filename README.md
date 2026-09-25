@@ -141,3 +141,12 @@ AI would manage things like:
 - Adapting the learning experience
 
 The final goal is to create a real intelligent student assistant that improves with the user over time.
+
+## Tests
+
+| Test | Input | Expected result | Actual result |
+| Grade checker | 18 | Excellent work! | Excellent work! |
+| Grade checker | 12 | You passed! | You passed! |
+| Average calculator | 12 and 16 | 14.0 | 14.0 |
+| Python Beginner | age = 20 | Correct! | Correct! |
+| Invalid menu choice | 9 | I do not understand that choice yet. | I do not understand that choice yet. |
